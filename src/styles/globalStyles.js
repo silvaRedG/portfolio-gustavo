@@ -8,4 +8,9 @@ export default createGlobalStyle`
         text-decoration: none;
         font-family: 'Poppins', sans-serif;
     }
+    
+    body {
+        background-color: #000000;
+        padding: 15px;
+    }
 `

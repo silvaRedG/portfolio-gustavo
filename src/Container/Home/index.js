@@ -1,11 +1,13 @@
 import React from "react"
 
-import Card from "../../components/Card"
+import InPersonService from "../InPersonService"
+import OnlineService from "../OnlineService"
 
 export default function Home() {
   return (
     <div>
-      <Card />
+      <OnlineService />
+      <InPersonService />
     </div>
   )
 }
