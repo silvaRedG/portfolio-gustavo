@@ -1,6 +1,7 @@
 import React from "react"
 
 import AboutText from "../../components/AboutText"
+// eslint-disable-next-line import-helpers/order-imports
 import Title from "../../components/Title"
 
 import { Container, ContainerItens } from "./styles"
