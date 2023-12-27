@@ -24,7 +24,13 @@ export default function OnlineService() {
     {
       id: "04",
       label:
-        "Ao final da consulta, você saíra com tudo o que precisa para começar sua jornada rumo ao bem-estar. Isso inclui uma lista completa de alimentos recomendados, opções de substitutos inteligentes, metas claras e, se necessário, sugestões de suplementos específicos para maximizar seus resultados."
+        "Ao final da consulta, você sairá com tudo o que precisa para começar sua jornada rumo ao bem-estar. Isso inclui uma lista completa de alimentos recomendados, opções de substitutos inteligentes, metas claras e, se necessário, sugestões de suplementos específicos para maximizar seus resultados."
+    },
+
+    {
+      id: "05",
+      label:
+        "Realizaremos checks-ins semanais para ajustar estratégias conforme necessário."
     }
   ]
 
