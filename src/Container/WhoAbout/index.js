@@ -3,8 +3,10 @@ import React from "react"
 import AboutText from "../../components/AboutText"
 // eslint-disable-next-line import-helpers/order-imports
 import Title from "../../components/Title"
+// eslint-disable-next-line import-helpers/order-imports
+import Logo from "../../assets/foto2.png"
 
-import { Container, ContainerItens } from "./styles"
+import { Container, ContainerItens, Photo } from "./styles"
 
 export default function Who() {
   const objects = [
@@ -34,8 +36,12 @@ export default function Who() {
 
   return (
     <Container>
-      <Title label="QUEM SOU" span="EU ?" />
+      <Photo>
+        <img src={Logo} alt="photo-quem-sou-eu" />
+      </Photo>
+
       <ContainerItens>
+        <Title label="QUEM SOU" span="EU ?" />
         {objects.map((obj, index) => (
           <AboutText key={index} label={obj.label} />
         ))}
