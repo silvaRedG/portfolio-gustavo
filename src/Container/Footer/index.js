@@ -1,8 +1,6 @@
-// eslint-disable-next-line import-helpers/order-imports
 import React from "react"
 import Button from "../../components/Button/index"
 import { Container, PhotoEnd } from "./styles"
-// eslint-disable-next-line import-helpers/order-imports
 import Photo from "../../assets/foto4.png"
 
 function Footer() {

@@ -1,11 +1,12 @@
 import React from "react"
 
-import InPersonService from "../InPersonService"
-import OnlineService from "../OnlineService"
-import Who from "../WhoAbout"
-import Main from "../Main"
+import Feedback from "../Feedbacks"
 import Footer from "../Footer"
+import InPersonService from "../InPersonService"
+import Main from "../Main"
+import OnlineService from "../OnlineService"
 import Plan from "../Plan"
+import Who from "../WhoAbout"
 
 export default function Home() {
   return (
@@ -15,6 +16,7 @@ export default function Home() {
       <Who />
       <OnlineService />
       <InPersonService />
+      <Feedback />
       <Footer />
     </div>
   )
