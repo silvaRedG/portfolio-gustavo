@@ -1,11 +1,8 @@
 import React from "react"
 
-import AboutText from "../../components/AboutText"
-// eslint-disable-next-line import-helpers/order-imports
-import Title from "../../components/Title"
-// eslint-disable-next-line import-helpers/order-imports
 import Logo from "../../assets/foto2.png"
-
+import AboutText from "../../components/AboutText"
+import Title from "../../components/Title"
 import { Container, ContainerItens, Photo } from "./styles"
 
 export default function Who() {
@@ -39,9 +36,8 @@ export default function Who() {
       <Photo>
         <img src={Logo} alt="photo-quem-sou-eu" />
       </Photo>
-
       <ContainerItens>
-        <Title label="QUEM SOU" span="EU ?" />
+        <Title label="QUEM SOU EU?" />
         {objects.map((obj, index) => (
           <AboutText key={index} label={obj.label} />
         ))}

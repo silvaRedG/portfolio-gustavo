@@ -1,40 +1,27 @@
 import styled from "styled-components"
 
 export const Container = styled.div`
-  display: flex;
-  background-color: #0057dc;
+  background: radial-gradient(
+    circle,
+    rgba(4, 126, 241, 1) 25%,
+    rgba(0, 87, 220, 1) 76%
+  );
   margin-top: 25px;
+
+  @media screen and (max-width: 900px) {
+    width: 100%;
+  }
 `
 
 export const ContainerText = styled.div`
   color: #ffffff;
-  font-weight: 600;
-  padding: 10px;
+  padding: 5px 10px;
   font-size: 0.9rem;
-
-  display: flex;
-  align-items: center;
-  justify-content: flex-start;
-
-  :nth-child(2) {
-    right: 5px;
-  }
-  :nth-child(3) {
-    right: 15px;
-  }
-  :nth-child(4) {
-    right: 20px;
-  }
-  :nth-child(5) {
-    right: 30px;
-  }
-  :nth-child(6) {
-    right: 40px;
-  }
-  :nth-child(7) {
-    right: 50px;
-  }
+  transform: skew(5deg);
 
   width: 50vw;
-  position: relative;
+  @media screen and (max-width: 900px) {
+    transform: skewX(0deg);
+    width: 100%;
+  }
 `

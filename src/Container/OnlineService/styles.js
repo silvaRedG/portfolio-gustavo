@@ -1,6 +1,8 @@
 import styled from "styled-components"
 
 export const Container = styled.div`
+  padding: 50px 0;
+
   @media screen and (min-width: 1200px) {
     display: flex;
     flex-direction: column;
