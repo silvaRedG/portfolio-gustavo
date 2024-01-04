@@ -4,20 +4,22 @@ export const Container = styled.div`
   display: flex;
   align-items: center;
   justify-content: center;
-
-  margin-bottom: 10em;
-
-  padding: 20px 5px 0px 10px;
+  height: 100vh;
 
   img {
-    width: 50vw;
+    width: 50%;
     -webkit-mask-image: linear-gradient(to top, transparent 7%, black 30%);
+  }
+
+  @media screen and (max-width: 767px) {
+    flex-direction: column;
   }
 `
 
 export const SubPhoto = styled.div`
-  position: relative;
-  left: 5%;
+  display: flex;
+  justify-content: center;
+  width: 50%;
 
   img {
     width: 30vw;
