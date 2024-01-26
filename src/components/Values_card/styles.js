@@ -34,7 +34,7 @@ export const CardBody = styled.div`
     background-color: #0057dc;
     border-radius: 20px;
     text-align: center;
-    height: 35vh;
+    min-height: 35vh;
     width: 30vw;
 
 
@@ -62,10 +62,13 @@ export const CardBodySecond = styled.div`
     align-items: center;
     background-color: #dbdbdb;
 
-p{
+p{  
+    
     color: #000;
     text-align: center;
 }
+
+width: 30vw;
 
 `
 
@@ -76,7 +79,7 @@ export const Icon = styled.div`
 
 
     width: 10vw;
-    height: 10vh;
+    min-height: 10vh;
     font-weight: bolder;
     font-size: 50px;
     background-color: #f26400;
@@ -105,7 +108,6 @@ export const CardBottom = styled.div`
 
     background-color: #0057dc;
     border-radius: 20px;
-    text-align: center;
     height: 35vh;
     width: 30vw;
 

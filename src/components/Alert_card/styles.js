@@ -9,7 +9,7 @@ export const Container = styled.div`
   gap: 40px;
   border: solid 1px red;
     
-  height: 250vh;
+  height: 220vh;
 
 
  

@@ -2,11 +2,11 @@ import styled from "styled-components"
 
 export const Container = styled.div`
   display: flex;
-  flex-direction: column-reverse;
+  flex-direction: row;
   align-items: flex-end;
-  align-items: center;
 
   h1 {
+    text-align: center;
     color: #ffffff;
     margin-top: 20px;
   }
