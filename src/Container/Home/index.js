@@ -7,6 +7,9 @@ import Main from "../Main"
 import OnlineService from "../OnlineService"
 import Plan from "../Plan"
 import Who from "../WhoAbout"
+import Card from "../Card"
+import Planfood from "../Planfood"
+import Alert from "../Alert"
 
 export default function Home() {
   return (
@@ -14,9 +17,12 @@ export default function Home() {
       <Main />
       <Plan />
       <Who />
+      <Planfood />
       <OnlineService />
       <InPersonService />
+      <Alert />
       <Feedback />
+      <Card />
       <Footer />
     </div>
   )

@@ -19,8 +19,9 @@ export const Container = styled.div`
     margin-bottom: 30px;
     border: inset 2px rgb(198, 198, 241);
 
-    width: 40vw;
+    width: 60vw;
     height: 20vh;
+    text-align: center;
     transition: opacity 0.5s ease-in-out;
     padding: 50px;
 
