@@ -1,12 +1,11 @@
 import React from "react"
 
-import Buttoon from "../../services/buttonLink"
-import { Container } from "./styles"
+import { Container, ContainerButton } from "./styles"
 
-function Button() {
+function Button({ children, ...props }) {
   return (
     <Container>
-      <Buttoon />
+      <ContainerButton {...props}>{children}</ContainerButton>
     </Container>
   )
 }

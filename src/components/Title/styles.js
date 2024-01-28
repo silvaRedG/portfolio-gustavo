@@ -22,7 +22,7 @@ export const ContainerTitle = styled.div`
   }
 
   @media screen and (max-width: 424px) {
-    font-size: 2.5rem;
+    font-size: 3rem;
 
     span {
       font-size: 3rem;

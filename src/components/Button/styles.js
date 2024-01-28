@@ -6,28 +6,24 @@ export const Container = styled.div`
   align-items: center;
   justify-content: center;
 
-  a {
-    text-decoration: none;
+  @media screen and (max-width: 420px) {
+    width: 100%;
   }
+`
 
-  button {
-    font-size: 2em;
-    cursor: pointer;
-    background-color: #0d0d0d;
-    color: #ffffff;
+export const ContainerButton = styled.a`
+  font-family: "Roswell Four ITC Std";
+  font-size: 2em;
+  padding: 1rem;
+  cursor: pointer;
+  background-color: #0d0d0d;
+  color: #ffffff;
 
-    margin-bottom: 30px;
-    border: inset 2px rgb(198, 198, 241);
+  border: inset 2px rgb(198, 198, 241);
+  border-radius: 1rem;
+  transition: opacity 0.2s ease-in-out;
 
-    width: 40vw;
-    height: 20vh;
-    transition: opacity 0.5s ease-in-out;
-    padding: 50px;
-
-    border-radius: 5rem;
-
-    &:hover {
-      opacity: 0.5;
-    }
+  &:hover {
+    opacity: 0.5;
   }
 `
