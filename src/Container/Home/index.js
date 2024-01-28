@@ -7,13 +7,15 @@ import Main from "../Main"
 import OnlineService from "../OnlineService"
 import Plan from "../Plan"
 import Who from "../WhoAbout"
+import Planning from "../Planning"
 
 export default function Home() {
   return (
     <div>
       <Main />
-      <Plan />
+      {/* <Plan /> */}
       <Who />
+      <Planning />
       <OnlineService />
       <InPersonService />
       <Feedback />
