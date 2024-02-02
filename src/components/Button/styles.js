@@ -11,7 +11,7 @@ export const Container = styled.div`
   }
 
   button {
-    font-size: 2em;
+    font-size: 1.5em;
     cursor: pointer;
     background-color: #0d0d0d;
     color: #ffffff;
@@ -19,7 +19,7 @@ export const Container = styled.div`
     margin-bottom: 30px;
     border: inset 2px rgb(198, 198, 241);
 
-    width: 60vw;
+    width: 30vw;
     height: 20vh;
     text-align: center;
     transition: opacity 0.5s ease-in-out;

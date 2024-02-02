@@ -16,7 +16,7 @@ export const Phone = styled.div`
   justify-content: center;
   align-items: center;
   margin-top: 10px;
-  padding: 30px;
+  padding: 31px;
   border: solid 1px red;
   color: #ffffff;
 

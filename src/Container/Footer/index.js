@@ -9,7 +9,6 @@ function Footer() {
       <Button />
 
       <PhotoEnd>
-        <h1>AGENDE JÁ! SUA CONSULTA</h1>
         <img src={Photo} alt="photo-footer" />
       </PhotoEnd>
     </Container>
