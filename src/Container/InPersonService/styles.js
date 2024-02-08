@@ -3,7 +3,7 @@ import styled from "styled-components"
 export const Container = styled.div`
   background-color: #0067e4;
   border-radius: 5rem;
-  padding: 1rem;
+  padding: 50px 10px;
 
   @media screen and (min-width: 1200px) {
     display: flex;

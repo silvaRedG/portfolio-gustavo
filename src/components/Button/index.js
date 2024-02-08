@@ -1,13 +1,11 @@
-// eslint-disable-next-line import-helpers/order-imports
 import React from "react"
-import { Container } from "./styles"
-// eslint-disable-next-line import-helpers/order-imports
-import Buttoon from "../../services/buttonLink"
 
-function Button() {
+import { Container, ContainerButton } from "./styles"
+
+function Button({ children, ...props }) {
   return (
     <Container>
-      <Buttoon />
+      <ContainerButton {...props}>{children}</ContainerButton>
     </Container>
   )
 }

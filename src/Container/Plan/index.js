@@ -1,6 +1,7 @@
 import React from "react"
-import { Container, ContainerItens } from "./styles"
+
 import Card from "../../components/Card"
+import { Container, ContainerItens } from "./styles"
 
 function Plan() {
   const objects = [

@@ -6,6 +6,7 @@ export default createGlobalStyle`
         padding: 0;
         box-sizing: border-box;
         text-decoration: none;
+        border: none;
         font-family: 'Poppins', sans-serif;
     }
     

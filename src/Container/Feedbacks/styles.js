@@ -3,14 +3,14 @@ import styled from "styled-components"
 export const Container = styled.div`
   display: flex;
   flex-direction: column;
-  justify-content: space-around;
-  margin-top: 20px;
-  height: 60vh;
+  height: 90vh;
+  margin-top: 50px;
 `
 
 export const ContainerItens = styled.div`
   display: flex;
   align-items: center;
+  height: 85%;
 
   .rec.rec-arrow {
     background-color: #fff;
@@ -29,7 +29,7 @@ export const ContainerItens = styled.div`
 
 export const Item = styled.div`
   color: #ffffff;
-  font-size: 1.5rem;
+  font-size: 1.3rem;
   text-align: center;
 
   @media screen and (min-width: 1200px) {
