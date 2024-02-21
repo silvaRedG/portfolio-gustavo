@@ -1,5 +1,4 @@
 import React from "react"
-
 import { Container, ContainerNumber, ContainerText } from "./styles"
 
 export default function Card({ number, label, isColorNumber }) {

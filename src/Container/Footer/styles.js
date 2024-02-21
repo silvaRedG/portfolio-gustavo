@@ -2,6 +2,17 @@ import styled from "styled-components"
 
 export const Container = styled.div`
   display: flex;
+main
+  flex-direction: row;
+  justify-content: center;
+  align-items: flex-end;
+
+  h1 {
+    text-align: center;
+    color: #ffffff;
+    margin-top: 20px;
+    border: solid 1px red;
+
   justify-content: space-around;
   align-items: center;
 
@@ -36,6 +47,7 @@ export const ContainerLeft = styled.div`
 
   @media screen and (max-width: 767px) {
     align-items: center;
+main
   }
 `
 

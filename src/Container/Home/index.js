@@ -7,22 +7,28 @@ import Main from "../Main"
 import OnlineService from "../OnlineService"
 import Plan from "../Plan"
 import Who from "../WhoAbout"
-import Planning from "../Planning"
-import CardValue from "../CardValue"
+import Card from "../Card"
+import Planfood from "../Planfood"
 import Alert from "../Alert"
 
+import Planning from "../Planning"
+
+import CardValue from "../CardValue"
+import Alert from "../Alert"
 export default function Home() {
   return (
     <div>
       <Main />
       {/* <Plan /> */}
       <Who />
+      <Planfood />
       <Planning />
       <OnlineService />
       <InPersonService />
       <Alert />
       <Feedback />
       <CardValue />
+      <Card />
       <Footer />
     </div>
   )
