@@ -8,6 +8,8 @@ import OnlineService from "../OnlineService"
 import Plan from "../Plan"
 import Who from "../WhoAbout"
 import Planning from "../Planning"
+import CardValue from "../CardValue"
+import Alert from "../Alert"
 
 export default function Home() {
   return (
@@ -18,7 +20,9 @@ export default function Home() {
       <Planning />
       <OnlineService />
       <InPersonService />
+      <Alert />
       <Feedback />
+      <CardValue />
       <Footer />
     </div>
   )
